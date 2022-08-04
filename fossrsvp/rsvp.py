@@ -1,7 +1,7 @@
 from . import session
 
 
-class Fossrsvp(object):
+class FossRsvp(object):
     def __init__(self, base="https://rsvp-api.fossnsbm.org/api/v1/"):
         self.base = base
 

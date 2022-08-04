@@ -1,6 +1,6 @@
-from fossrsvp import Fossrsvp
+from fossrsvp import FossRsvp
 
-service = Fossrsvp()
+service = FossRsvp()
 
 
 def test_fetch_events():

@@ -9,4 +9,4 @@ class APIKeyMissingError(Exception):
 session = requests.Session()
 session.params = {}
 
-from .rsvp import Fossrsvp
+from .rsvp import FossRsvp
